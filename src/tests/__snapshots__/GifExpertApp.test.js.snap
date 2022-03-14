@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifExpertApp /> Should display a list of categories! 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Pokemon"
+      key="Pokemon"
+    />
+    <GifGrid
+      category="Digimon"
+      key="Digimon"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Tests in <GifExpertApp /> Should display correctly! 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;

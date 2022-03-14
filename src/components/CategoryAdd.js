@@ -16,6 +16,8 @@ const CategoryAdd = ({ setCategories }) => {
     // 
     return (
         <form onSubmit={ handleSubmit }>
+            {/* Temporal */}
+            <p>{ inputValue }</p> 
             <input 
                 type="text" 
                 value={ inputValue } 

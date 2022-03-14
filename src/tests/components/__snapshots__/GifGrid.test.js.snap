@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifGrid /> Should display correctly! 1`] = `
+<Fragment>
+  <h4
+    className="uppercase"
+  >
+    Avengers
+  </h4>
+  <h5
+    className="animate__animated animate__flash animate__infinite"
+  >
+    Loading...
+  </h5>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
